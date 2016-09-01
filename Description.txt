@@ -1,0 +1,29 @@
+Group Number : 5
+Members :
+1. Manu Kumar Sharma - 1301CS27
+2. Alok Kumar - 1301CS06
+3. Alwyn Mathews - 1621CS22
+
+Problem Statement : Implement Hill Climbing Search Algorithm for solving the 8-puzzle problem.
+
+Input Files : 
+	a. test.txt
+	b. test1.txt
+	
+Code Description : 
+1. Class Node : Show a particular configuration of puzzle grid at any.
+	attributes : puzzle grid, eValue
+	Two Constructors for Node class.
+	Methods :
+	a. getEvalue : To get E value 
+	b. setEvalue : To set E value
+	c. printNode : To print a node
+	d. getLeft, getRight, getUp, getDown, getAllNeighbours : Return arrayList of neighbours of a given node
+	e. hfunc : To calculate the heuristic
+	f. compareNodes : Check Equality of Two Nodes.
+
+2. Class HillClimb : Main Class
+	Methods : 
+	a. hillClimbing : Implementation of Hill Climbing Algorithm
+	b. readFile : To read file as input
+	c. Main function 
